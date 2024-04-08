@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cardview_dark_background"
+    android:layout_height="match_parent"
+    tools:context=".expenditure">
+
+    <EditText
+        android:id="@+id/SummEx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:hint="Сумма"
+        android:textColorHint="@color/white"
+        android:inputType="text"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/NameEx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:hint="название покупки"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"
+        android:inputType="text"
+        android:text="" />
+    <EditText
+        android:id="@+id/CategoryEx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:hint="категория"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"
+        android:inputType="text"
+        android:text="" />
+
+    <Button
+        android:id="@+id/Write1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Записать" />
+</LinearLayout>
